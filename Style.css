@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Playfair+Display:ital,wght@1,700&family=Source+Code+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(210, 205, 205);
+    width: 434px;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 58px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    padding: 23px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: rgb(239, 101, 227); */
+    width: 80vw;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(241, 234, 89);
+    height: 58vh;
+    width: 76vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    flex-direction: column;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 55px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: lighter;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: black;
+    background-color: darksalmon;
+}
+
+.moreabout {
+    font-size: 18px;
+    margin: 23px;
+    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.devpic img {
+    height: 58vh;
+}
